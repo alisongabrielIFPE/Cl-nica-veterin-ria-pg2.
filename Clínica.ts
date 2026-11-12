@@ -19,7 +19,7 @@ abstract class Animal {
 
 class Cachorro extends Animal {
     public emitirSom(): void {
-        console.log(`${this.nome} diz: Au au!`);
+        console.log(`${this.nome} diz: Au`);
     }
 
     public descreverCuidadosDiarios(): string {
@@ -29,7 +29,7 @@ class Cachorro extends Animal {
 
 class Gato extends Animal {
     public emitirSom(): void {
-        console.log(`${this.nome} diz: Miau!`);
+        console.log(`${this.nome} diz: Miau`);
     }
 
     public descreverCuidadosDiarios(): string {
@@ -39,7 +39,7 @@ class Gato extends Animal {
 
 class Ave extends Animal {
     public emitirSom(): void {
-        console.log(`${this.nome} diz: Piu piu!`);
+        console.log(`${this.nome} diz: Piu`);
     }
 
     public descreverCuidadosDiarios(): string {
@@ -158,9 +158,9 @@ class ClinicaVeterinaria {
 }
 const clinica = new ClinicaVeterinaria("Clínica Veterinária Dona Marta");
 
-const dog = new Cachorro("Rex", 3, "Carlos");
-const cat = new Gato("Mimi", 2, "Ana");
-const bird = new Ave("Piu", 1, "João");
+const dog = new Cachorro("yoshi", 3, "guilherme");
+const cat = new Gato("bel", 2, "julio");
+const bird = new Ave("nobrin", 1, "alison");
 
 const vet = new Veterinario("Dra. Camila", "VET-01", 4500);
 const rec = new Recepcionista("Lucas", "REC-01", 2000);
